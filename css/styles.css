@@ -46,6 +46,10 @@ img {
 /* header */
 .page-header {
   padding: 24px 0;
+  display: flex;
+}
+.page-header .container {
+  display: flex;
 }
 .header-container {
   display: flex;
@@ -84,6 +88,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .menu-item .menu-link {
   color: var(--color-of-pharaghraps);
 }
@@ -96,7 +101,9 @@ img {
   align-items: center;
   margin-left: auto;
 }
-
+.address {
+  margin-left: auto;
+}
 .mail {
   font-style: normal;
   font-size: 16px;
@@ -118,6 +125,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: auto;
 }
 .contact-phone-number {
   color: var(--color-of-pharaghraps);
@@ -134,7 +142,6 @@ img {
 }
 
 .main-title {
-  width: 494px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -290,6 +297,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cornflower-footer);
+  width: 264px;
+  margin: 16px;
 }
 /* footer */
 
