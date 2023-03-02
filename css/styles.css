@@ -379,10 +379,6 @@ img {
   flex-basis: calc((100% - 48%) / 3);
 }
 .row-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  margin: 0 auto;
 }
 .row-list {
 }
