@@ -265,6 +265,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--blue-text-color);
+  text-align: center;
+  margin: 72px;
 }
 .team-list {
   display: flex;
