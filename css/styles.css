@@ -32,7 +32,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  outline: 1px solid red;
+
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -190,6 +190,7 @@ img {
   justify-content: center;
   gap: 24px;
   margin-top: 96px;
+  margin-bottom: 72px;
 }
 
 .navigation .modal-btn:hover,
@@ -348,21 +349,33 @@ img {
   color: var(--color-cornflower-footer);
   width: 264px;
   margin-top: 16px;
+  padding-bottom: 100px;
+}
+.footer {
+  margin-top: 4px;
+  padding-top: 100px;
 }
 /* footer */
 
 /* row */
 .about-row {
+  list-style-type: none;
+  padding-left: 0%;
+  margin: 0% auto;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  row-gap: 48px;
-  column-gap: 24px;
+  gap: 48px 24px;
   padding-bottom: 120px;
 }
-.about-row .row-item {
-  flex-basis: calc(100% / 3);
-}
+
 .row-item {
+  outline: 1px solid var(--color-cornflower-footer);
+  flex-basis: calc(100% / 3 24px);
+  border-top: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  margin: auto auto;
 }
 .row-list {
 }
@@ -375,16 +388,18 @@ img {
   margin-top: 32px;
 }
 .row-item-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-of-pharaghraps);
   margin-top: 8px;
-  padding-bottom: 32px;
 }
 .site-nav {
-  padding-left: 16px;
-  border: 1px solid var(--color-cornflower-footer);
+  text-decoration-line: none;
+}
+.portfolio-img {
+  display: block;
 }
 
 /* row */
