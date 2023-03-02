@@ -358,6 +358,14 @@ img {
 /* footer */
 
 /* row */
+.portfolio-text {
+  border: 1px solid var(--color-cornflower-footer);
+  border-top: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  margin: 0 auto;
+}
 .about-row {
   list-style-type: none;
   padding-left: 0%;
@@ -367,15 +375,14 @@ img {
   gap: 48px 24px;
   padding-bottom: 120px;
 }
-
 .row-item {
-  outline: 1px solid var(--color-cornflower-footer);
-  flex-basis: calc(100% / 3 24px);
-  border-top: 0;
+  flex-basis: calc((100% - 48%) / 3);
+}
+.row-item {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  margin: auto auto;
+  margin: 0 auto;
 }
 .row-list {
 }
@@ -385,7 +392,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--blue-text-color);
-  margin-top: 32px;
+  margin-top: 0 auto;
 }
 .row-item-text {
   font-weight: 400;
