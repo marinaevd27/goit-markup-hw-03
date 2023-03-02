@@ -180,10 +180,16 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   display: flex;
+  background: var(--color-cornflower-footer);
+  border: 1px solid var(--color-button-white);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 .hero-buttons {
   display: flex;
   justify-content: center;
+  gap: 24px;
+  margin-top: 96px;
 }
 
 .navigation .modal-btn:hover,
@@ -279,7 +285,6 @@ img {
   line-height: 0.9;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 .team-item-title {
@@ -300,13 +305,13 @@ img {
   padding-bottom: 32px;
 }
 .team-description {
-  background-color: #ffffff;
+  background-color: var(--color-button-white);
   border-radius: 0px 0px 4px 4px;
   border-top: none;
   text-align: center;
-  margin-right: 24px;
 }
 /* team */
+
 /* navigation */
 
 /* footer */
@@ -342,18 +347,24 @@ img {
   letter-spacing: 0.02em;
   color: var(--color-cornflower-footer);
   width: 264px;
-  margin: 16px;
+  margin-top: 16px;
 }
 /* footer */
 
-/* team */
-.about {
+/* row */
+.about-row {
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 48px;
+  column-gap: 24px;
+  padding-bottom: 120px;
+}
+.about-row .row-item {
+  flex-basis: calc(100% / 3);
 }
 .row-item {
 }
 .row-list {
-}
-.list {
 }
 .row-item-title {
   font-weight: 500;
@@ -361,13 +372,19 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--blue-text-color);
+  margin-top: 32px;
 }
 .row-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-of-pharaghraps);
-  padding: 0 0 100px 0;
-  margin: 0 0 0 156px;
+  margin-top: 8px;
+  padding-bottom: 32px;
 }
-/* team */
+.site-nav {
+  padding-left: 16px;
+  border: 1px solid var(--color-cornflower-footer);
+}
+
+/* row */
