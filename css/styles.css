@@ -32,7 +32,6 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  outline: 1px solid red;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -365,8 +364,7 @@ img {
 /* footer */
 
 /* row */
-.navigation {
-}
+
 .portfolio-text {
   border: 1px solid var(--color-cornflower-footer);
   border-top: 0;
