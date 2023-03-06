@@ -172,7 +172,7 @@ img {
 .navigation {
   background: none;
   padding-top: 96px;
-  padding: 120px;
+  padding-bottom: 120px;
 }
 .modal-btn {
   font-weight: 500;
